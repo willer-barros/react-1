@@ -30,7 +30,7 @@ Função de Limpeza (Cleanup): Retorna uma função contendo clearInterval(inter
 3. Integração com APIs do JS (setInterval)
 Trabalhar com funções assíncronas do JavaScript dentro do React exige cuidados específicos. Usamos a forma de atualização funcional do estado (setTempoRestante(tempoAtual => tempoAtual - 1)) para garantir que o valor do tempo esteja sempre atualizado.
 
-📁 Estrutura do Código
+### 📁 Estrutura do Código
 Plaintext
 src/
 ├── App.jsx       # Lógica do jogo (useState, useEffect, manipuladores de evento)
@@ -39,23 +39,27 @@ src/
 🛠️ Como Executar o Projeto
 Clone o repositório:
 
-Bash
+```bash
 git clone https://github.com/seu-usuario/desafio-da-aura.git
-Entre na pasta do projeto:
+```
 
-Bash
+```bash
 cd desafio-da-aura
-Instale as dependências:
+```
 
-Bash
+Instale as dependências:
+```bash
 npm install
+```
+
 Inicie o servidor de desenvolvimento:
 
-Bash
+```bash
 npm run dev
+```
 Abra o navegador no endereço indicado no terminal (geralmente http://localhost:5173).
 
-🚀 Desafios Extras para Praticar
+### 🚀 Desafios Extras para Praticar
 Quer ir além? Tente implementar estas melhorias por conta própria:
 
 [ ] Recorde Pessoal: Guarde a maior pontuação no localStorage para que o recorde não se perca ao recarregar a página.
